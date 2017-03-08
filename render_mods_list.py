@@ -24,7 +24,7 @@ if(__name__=="__main__"):
                 for i in m_list.readlines():
                     # print("ServerModSetup('%s')" % i.replace('\n',''))
                     m_setup.write('ServerModSetup("%s")\n' % i.replace('\n',''))
-                    m_lua.write('["workshop-%s"] = { enable = true },\n' % i.replace("\n",''))
+                    m_lua.write('["workshop-%s"] = { enabled = true },\n' % i.replace("\n",''))
                 m_lua.write("}")
 
 
