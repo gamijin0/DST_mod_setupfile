@@ -4,6 +4,8 @@ import sys
 # 'dedicated_server_mods_setup.lua' ,which  in the Cluster folder,
 # and
 # 'modoverrides.lua' ,which in the Master folder
+
+#Usage: python  render_mods_list.py  mods.txt
 #
 ##For reference  https://steamcommunity.com/sharedfiles/filedetails/?id=591543858&searchtext=mod
 
